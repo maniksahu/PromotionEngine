@@ -57,9 +57,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BussinessRuleEngine\BussinessRuleEngine.csproj">
+      <Project>{7352dddb-6665-4fcd-97a1-a836c802d27a}</Project>
+      <Name>BussinessRuleEngine</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PromotionEngine\PromotionEngine.csproj">
       <Project>{4e99dc89-ddc5-4c3e-a7f4-e10f064e1639}</Project>
-      <Name>ClassLibraryPromotionEngine</Name>
+      <Name>PromotionEngine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

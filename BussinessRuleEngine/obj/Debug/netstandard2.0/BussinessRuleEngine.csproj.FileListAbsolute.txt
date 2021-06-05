@@ -1,0 +1,4 @@
+C:\Users\msahu2\Downloads\PromotionEngine\BussinessRuleEngine\obj\Debug\netstandard2.0\BussinessRuleEngine.csprojAssemblyReference.cache
+C:\Users\msahu2\Downloads\PromotionEngine\BussinessRuleEngine\obj\Debug\netstandard2.0\BussinessRuleEngine.AssemblyInfoInputs.cache
+C:\Users\msahu2\Downloads\PromotionEngine\BussinessRuleEngine\obj\Debug\netstandard2.0\BussinessRuleEngine.AssemblyInfo.cs
+C:\Users\msahu2\Downloads\PromotionEngine\BussinessRuleEngine\obj\Debug\netstandard2.0\BussinessRuleEngine.csproj.CoreCompileInputs.cache
