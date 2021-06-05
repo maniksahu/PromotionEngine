@@ -13,13 +13,13 @@ namespace PromotionEngine.Models
 
             foreach (var promotionItem in Items)
             {
-                var foundItem = itemsVerified.FirstOrDefault(x => x.Id == promotionItem.Id) ??
+                var existingItem = itemsVerified.FirstOrDefault(x => x.Id == promotionItem.Id) ??
                   cart.Items.FirstOrDefault(x => x.Id == promotionItem.Id);
-                if (foundItem == null || foundItem.Quantity < promotionItem.Quantity)
+                if (existingItem == null || existingItem.Quantity < promotionItem.Quantity)
                     return null;
 
-                if (itemsAdded.All(x => x.Id != foundItem.Id))
-                    itemsAdded.Add(new Item(foundItem));
+                if (itemsAdded.All(x => x.Id != existingItem.Id))
+                    itemsAdded.Add(new Item(existingItem));
             }
 
             CalculatePriceAndQuantityByPromotion(cart, itemsAdded);
